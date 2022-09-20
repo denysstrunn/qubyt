@@ -1,0 +1,256 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: normal;
+    lyst-style: none;
+
+} */
+/* Using  'meyer-reset' */
+/* ---------------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #FFFFFF; */
+}
+
+
+/* Nav */
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.header {
+    margin: 13px auto 15px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul {
+    display: flex;
+    gap: 62px;
+}
+
+.header_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #1C1C1C;
+    text-decoration: none;
+}
+
+.header_button {
+    height: 40px;
+    width: 157px;
+    border-radius: 20px;
+    background: #6F2CFF;
+    border: none;
+    /* txt button */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}/* +++*/
+.header_button:hover {
+    background-color: #ee73ae;
+    transition: 1s;
+    cursor: pointer;
+}
+/*----------------------------------- */
+
+/* Section 1 */
+.main {
+    background: #F6BED9;
+    padding: 58px 0px 0px 59px;
+}
+
+.img_div {
+   padding: 58px;
+}
+
+.main_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 61px;
+    color: #000000;
+    max-width: 470px;
+}
+.main_title-violet {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 54px;
+    color: #6F2DFF;
+}
+
+.main_text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
+    max-width: 438px;
+    margin: 18px 0px;
+}
+
+.main_p-bold {
+    font-weight: bold;
+}
+
+.main_input {
+    height: 45px;
+    width: 268px;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px;
+    padding-left: 26px;
+}
+
+.main_input::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+.main_input:focus {
+    outline: none;
+}
+
+.main_button {
+    height: 45px;
+    width: 187px;
+    margin-left: 9px;
+}
+/* ------------------------------ */
+
+
+/* Section 2 */
+.grow {
+    margin: 136px auto;
+     
+}
+
+.grow_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    color: #1C1C1C;
+    max-width: 415px;
+}
+
+.grow_flex {
+    display: flex;
+    gap: 34px;
+}
+
+.grow_element {
+    max-width: 333px;
+    text-align: center;
+}
+
+.grow_item {
+    padding: 35px 0px 85px;
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+    border-radius: 0px 0px 7px 7px;
+}
+
+.grow_h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 28px;
+}
+
+.grow_p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #6F2CFF;
+    max-width: 219px;
+    margin: 0 auto;
+}
+
+
+
+/* Section 3 */
+.grow2 {
+    margin: 136px auto;
+}
+
+.grow2_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+    color: #000000;
+    margin: 31px 430px 79px 433px;
+}
+
+
+.grow_flex2 {
+    display: flex;
+    gap: 150px;
+}
+
+.block_img {
+    max-width: 50px; 
+    margin: auto;
+    margin-bottom: 42px;
+}
+
+.grow_flex2_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+}
+
+.grow_flex_p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    max-width: 314px;
+}
+
+
+/* Footer */
+.footer {
+    background: #20003C;
+    padding: 58px 0px;
+}
+
+.footer_ul {
+    display: flex;
+    gap: 74px;
+}
+
+.footer_link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
